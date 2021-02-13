@@ -1,15 +1,16 @@
 env:
   node: true
-  es2021: true
+  es2020: true
 
 extends:
   - 'airbnb-base'
 
 parserOptions:
-  ecmaVersion: 12
+  ecmaVersion: 11
   sourceType: module
-rules:
 
+rules:
+  import/prefer-default-export: 0
   no-console: 0
   import/extensions: 0
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
