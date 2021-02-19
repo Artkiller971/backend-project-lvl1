@@ -4,7 +4,7 @@ const turnsCount = 3;
 
 export default (gameObjective, getQuestionAndAnswer) => {
   console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('What is you name? ');
+  const userName = readlineSync.question('May I have your name ');
   console.log(`Hello, ${userName}!`);
   console.log(`${gameObjective}`);
 
