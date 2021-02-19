@@ -15,17 +15,17 @@ Clone the repository, run `npm link` from the repository.
 [![asciicast](https://asciinema.org/a/6gLcQE6lJBssFcgOofGnXNN3A.svg)](https://asciinema.org/a/kDxB2PeqqQhO32SIyuU5FhNBB)
 
 ### Calculator
-'brain-calc' to start the game
+`brain-calc` to start the game
 [![asciicast](https://asciinema.org/a/6gLcQE6lJBssFcgOofGnXNN3A.svg)](https://asciinema.org/a/hkbK8aH690sgwm7WfcxUpPinq)
 
 ### Greates Common Divisor
-'brain-gcd' to start the game
+`brain-gcd` to start the game
 [![asciicast](https://asciinema.org/a/6gLcQE6lJBssFcgOofGnXNN3A.svg)](https://asciinema.org/a/MeIxEfFSQaUe2OWeSshIN23jX)
 
 ### Progression
-'brain-progression' to start the game
+`brain-progression` to start the game
 [![asciicast](https://asciinema.org/a/6gLcQE6lJBssFcgOofGnXNN3A.svg)](https://asciinema.org/a/VYcVSblctuGStWZatv6DsODlK)
 
 ### Is number prime?
-'brain-prime' to start the game
+`brain-prime` to start the game
 [![asciicast](https://asciinema.org/a/6gLcQE6lJBssFcgOofGnXNN3A.svg)](https://asciinema.org/a/aNai1GgVBLHy19APfvcqKJbf1)
