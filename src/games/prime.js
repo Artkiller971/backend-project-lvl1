@@ -2,7 +2,7 @@ import random from '../random.js';
 import gameEngine from '../index.js';
 
 const isPrime = (num) => {
-  if (num < 3) {
+  if (num < 2) {
     return false;
   }
 
