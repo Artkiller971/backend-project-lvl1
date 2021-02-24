@@ -7,7 +7,7 @@
 
 Clone the repository, run `npm link` from the repository.
 
-##Games
+## Games
 
 ### Is number even?
 `brain-even` to start the game.
