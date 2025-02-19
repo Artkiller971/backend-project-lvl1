@@ -8,7 +8,7 @@ export default (objective, gameLogic) => {
 
     for (let turns = 0; turns < 3; turns += 1) {
       const [question, expectedAnswer] = gameLogic();
-      console.log(question);
+      console.log(`Question: ${question}`);
       const userAnswer = readlineSync.question('Your answer: ');
       if (!(userAnswer === expectedAnswer)) {
         console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${expectedAnswer}'`);
