@@ -2,6 +2,9 @@ import getRandomNumber from '../generateRandomNumber.js';
 import gameEngine from '../index.js';
 
 const isPrime = (number) => {
+  if (number === 1) {
+    return 'no';
+  }
   for (let i = 2; i <= number / 2; i += 1) {
     if (number % i === 0) {
       return 'no';
@@ -20,5 +23,3 @@ const isPrimeLogic = () => {
 };
 
 export default () => gameEngine(objective, isPrimeLogic);
-
-console.log(isPrime(4));
