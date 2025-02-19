@@ -16,8 +16,8 @@ const getGCD = (num1, num2) => {
 const objective = 'Find the greatest common divisor of given numbers.';
 
 const gcdLogic = () => {
-  const number1 = getRandomNumber(1,100);
-  const number2 = getRandomNumber(1,100);
+  const number1 = getRandomNumber(1, 100);
+  const number2 = getRandomNumber(1, 100);
   const question = `${number1} ${number2}`;
   const expectedAnswer = getGCD(number1, number2).toString();
   return [question, expectedAnswer];

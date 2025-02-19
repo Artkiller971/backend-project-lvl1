@@ -6,23 +6,23 @@ export default [
   {
     languageOptions: { globals: globals.node },
     plugins: {
-      '@stylistic/js': stylisticJs
+      '@stylistic/js': stylisticJs,
     },
     rules: {
       semi: 'error',
       'consistent-return': 'error',
       'default-case': 'error',
+      'no-else-return': 'error',
       'prefer-const': 'error',
-      '@stylistic/js/indent': ['error', 2],
       '@stylistic/js/quotes': ['error', 'single'],
       '@stylistic/js/comma-dangle': ['error', {
-        arrays: 'never',
-        objects: 'never',
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
         imports: 'always',
         exports: 'always',
         functions: 'never',
         importAttributes: 'always',
-        dynamicImports: 'always'
+        dynamicImports: 'always',
       }],
       '@stylistic/js/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/js/no-trailing-spaces': ['error'],
@@ -32,8 +32,9 @@ export default [
       '@stylistic/js/space-infix-ops': ['error'],
       '@stylistic/js/space-in-parens': ['error'],
       '@stylistic/js/object-curly-spacing': ['error', 'always'],
-      '@stylistic/js/indent': ['error', 2, { SwitchCase: 1 }]
-    }
-  }
+      '@stylistic/js/indent': ['error', 2, { SwitchCase: 1 }],
+      '@stylistic/js/comma-spacing': ['error'],
+    },
+  },
 
 ];

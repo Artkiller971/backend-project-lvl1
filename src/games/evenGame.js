@@ -4,9 +4,8 @@ import gameEngine from '../index.js';
 const isEven = (number) => {
   if (number % 2 === 0) {
     return 'yes';
-  } else {
-    return 'no';
   }
+  return 'no';
 };
 
 const objective = 'Answer "yes" if the number is even, otherwise answer "no".';
