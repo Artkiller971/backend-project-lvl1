@@ -10,6 +10,8 @@ export default [
     },
     rules: {
       semi: 'error',
+      'consistent-return': 'error',
+      'default-case': 'error',
       'prefer-const': 'error',
       '@stylistic/js/indent': ['error', 2],
       '@stylistic/js/quotes': ['error', 'single'],
@@ -22,13 +24,15 @@ export default [
         importAttributes: 'always',
         dynamicImports: 'always'
       }],
-      '@stylistic/js/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0}],
+      '@stylistic/js/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/js/no-trailing-spaces': ['error'],
       '@stylistic/js/eol-last': ['error', 'always'],
       '@stylistic/js/no-multi-spaces': ['error'],
       '@stylistic/js/quote-props': ['error', 'as-needed'],
-      'space-infix-ops': ['error'],
-      '@stylistic/js/space-in-parens': ['error']
+      '@stylistic/js/space-infix-ops': ['error'],
+      '@stylistic/js/space-in-parens': ['error'],
+      '@stylistic/js/object-curly-spacing': ['error', 'always'],
+      '@stylistic/js/indent': ['error', 2, { SwitchCase: 1 }]
     }
   }
 
