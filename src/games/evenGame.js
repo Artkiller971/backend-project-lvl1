@@ -9,7 +9,6 @@ const isEven = (number) => {
   }
 };
 
-
 const objective = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEvenLogic = () => {
