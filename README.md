@@ -1,14 +1,26 @@
-### Hexlet tests and linter status:
+## Hexlet tests and linter status:
 [![Actions Status](https://github.com/Artkiller971/backend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Artkiller971/backend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/e82d816f11481cc1576e/maintainability)](https://codeclimate.com/github/Artkiller971/backend-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/e82d816f11481cc1576e/test_coverage)](https://codeclimate.com/github/Artkiller971/backend-project-lvl1/test_coverage)
 
-brain-even asciinema https://asciinema.org/a/BV3Sw1ov5hGHoOTAJUngaACu4
+## Installation:
 
-brain-calc asciinema https://asciinema.org/a/DIfHcFzmnBlZ664WwWBwcu9DY
+Clone the repository, run `npm link`, `make install` from inside the repository.
 
-brain-gcd asciinema https://asciinema.org/a/Ccjj24TtTCAdt76Hj6UkNj2AD
+### brain-even asciinema:
 
-brain-progression asciinema https://asciinema.org/a/d2H1ExFhnMcyVtidNAQOElTi6
+[![asciicast](https://asciinema.org/a/VBJUYcmppL6ZUZftm063ddE9D.svg)](https://asciinema.org/a/VBJUYcmppL6ZUZftm063ddE9D)
 
-brain-prime asciinema https://asciinema.org/a/KxvmC8Tcpicbd8GwZTZqTv0Rq
+### brain-calc asciinema:
+
+[![asciicast](https://asciinema.org/a/xe3pKsfUndoVYQUPuR2q9RDuX.svg)](https://asciinema.org/a/xe3pKsfUndoVYQUPuR2q9RDuX)
+
+### brain-gcd asciinema:
+
+[![asciicast](https://asciinema.org/a/EGPlwdLiCAU0dmdvdmNvJ1RDf.svg)](https://asciinema.org/a/EGPlwdLiCAU0dmdvdmNvJ1RDf)
+
+### brain-progression asciinema:
+
+[![asciicast](https://asciinema.org/a/tAyjs7a4fX5tRnhTLpto1A7Eb.svg)](https://asciinema.org/a/tAyjs7a4fX5tRnhTLpto1A7Eb)
+
+### brain-prime asciinema:
+
+[![asciicast](https://asciinema.org/a/a6N1Q7FPUab7pq7pJ8gfoyTN0.svg)](https://asciinema.org/a/a6N1Q7FPUab7pq7pJ8gfoyTN0)
